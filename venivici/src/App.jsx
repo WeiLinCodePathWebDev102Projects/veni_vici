@@ -22,14 +22,18 @@ function App() {
     fetchData();
   }, [])
 
+  const submitBannedYears = () => {
+    let defaultValues={
+
+    }
+  }
+
+  //banned container
+
   return (
     <div className="App">
       <div className='itemsToBan'>
         Ban 
-        <div></div>
-      </div>
-      <div className='banned'>
-        Banned Container
       </div>
       <div>
         <button className='nextButton'> Next </button>
